@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy | OmniDoc - PDF Merge &amp; Compress</title>
+<meta name="description" content="Privacy Policy for OmniDoc, a 100% offline, on-device PDF and document utility app for Android.">
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f8f9fc;
+    --surface: #ffffff;
+    --text: #191c20;
+    --muted: #5a5f68;
+    --primary: #0d5ba6;
+    --primary-container: #d4e3ff;
+    --secondary: #006874;
+    --rule: #e0e4eb;
+    --card-border: #dbe1ea;
+    --badge-bg: #e6f4ea;
+    --badge-text: #137333;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #101317;
+      --surface: #191d23;
+      --text: #e1e3e8;
+      --muted: #9aa1ad;
+      --primary: #a5c8ff;
+      --primary-container: #004786;
+      --secondary: #81d4e2;
+      --rule: #2a303b;
+      --card-border: #2e3542;
+      --badge-bg: #0f3822;
+      --badge-text: #81c995;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--rule);
+    padding: 2.5rem 1.25rem 2rem;
+    text-align: center;
+  }
+
+  .header-content {
+    max-width: 44rem;
+    margin: 0 auto;
+  }
+
+  .badge {
+    display: inline-block;
+    background: var(--badge-bg);
+    color: var(--badge-text);
+    font-size: 0.85rem;
+    font-weight: 600;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(1.75rem, 5vw, 2.3rem);
+    line-height: 1.25;
+    margin: 0 0 0.5rem;
+    color: var(--text);
+  }
+
+  .app-meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 3.5rem;
+  }
+
+  .highlight-card {
+    background: var(--surface);
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  }
+
+  .highlight-card h3 {
+    margin: 0 0 0.5rem;
+    color: var(--primary);
+    font-size: 1.15rem;
+  }
+
+  .highlight-card p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    margin: 2rem 0 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+    color: var(--text);
+  }
+
+  p { margin: 0 0 1rem; }
+  ul { margin: 0 0 1rem; padding-left: 1.4rem; }
+  li { margin-bottom: 0.5rem; }
+
+  a {
+    color: var(--primary);
+    text-underline-offset: 0.2em;
+  }
+  a:hover { text-decoration: underline; }
+
+  footer {
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 3rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.875rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <span class="badge">&#128274; 100% On-Device &amp; Private</span>
+      <h1>Privacy Policy for OmniDoc</h1>
+      <p class="app-meta">Package: <code>com.vashudev.omnidoc</code> &bull; Last Updated: November 1, 2026</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="highlight-card">
+      <h3>Summary Guarantee: Zero Cloud Uploads</h3>
+      <p>OmniDoc processes all document conversions, photo scans, PDF merges, splits, and compressions <strong>100% locally on your phone</strong> using native Android operating system APIs. Your documents, photos, contracts, and personal files are <strong>never</strong> transmitted, uploaded, or stored on external cloud servers.</p>
+    </div>
+
+    <section>
+      <h2>1. Information We Do NOT Collect</h2>
+      <p>OmniDoc does not require user accounts, logins, or registration. We do not collect or store:</p>
+      <ul>
+        <li>Your name, email address, physical address, or phone number.</li>
+        <li>Your documents, images, PDF files, or any document metadata.</li>
+        <li>Your precise GPS location.</li>
+        <li>Your contacts, biometric data, or sensitive financial information.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. On-Device Processing &amp; Local Storage</h2>
+      <p>When you convert images to PDF, merge files, split pages, or compress documents:</p>
+      <ul>
+        <li><strong>On-Device Execution:</strong> All PDF operations are handled strictly on your hardware using standard Android <code>PdfDocument</code> and <code>PdfRenderer</code> system libraries.</li>
+        <li><strong>Temporary Cache:</strong> Exported documents are stored only within your device's isolated application cache directory. These files are never accessible to other apps without your explicit intent via Android's secure <code>FileProvider</code>.</li>
+        <li><strong>Storage Cleaner:</strong> You can permanently purge all cached documents at any time using the in-app "Clear Temporary Cache" button located on the dashboard.</li>
+        <li><strong>Zero Watermarks:</strong> We never alter, brand, or watermark your exported documents.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Third-Party Services &amp; Advertising</h2>
+      <p>To provide free, watermark-free document tools, OmniDoc displays non-intrusive advertisements via certified ad networks:</p>
+      <ul>
+        <li><strong>Google Mobile Ads (AdMob):</strong> May process non-personally identifiable device telemetry, such as the Google Advertising ID (AAID) and general device characteristics, solely to deliver contextual, non-intrusive ads, prevent fraud, and enforce ad frequency caps.
+          <ul>
+            <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a></li>
+            <li><a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener noreferrer">How Google uses information from apps</a></li>
+          </ul>
+        </li>
+        <li><strong>Google User Messaging Platform (UMP):</strong> Used to collect and respect user consent for European Economic Area (EEA), UK (GDPR), and US state privacy regulations (CCPA/CPRA).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Device Permissions</h2>
+      <p>OmniDoc requests only the minimal permissions required for core utility and ad compliance:</p>
+      <ul>
+        <li><code>READ_MEDIA_IMAGES</code>: Requested on Android 13+ solely when you launch the system photo picker to select images for PDF conversion. We only access the exact images you select.</li>
+        <li><code>INTERNET</code> &amp; <code>ACCESS_NETWORK_STATE</code>: Required strictly to load AdMob advertisements and verify network connectivity. Core document processing functions fully in Airplane Mode without internet access.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Children's Privacy (COPPA &amp; GDPR-K)</h2>
+      <p>OmniDoc is a general utility app designed for users aged 13 and older. We do not knowingly collect personal information from children under the age of 13. All advertising configurations comply with Google Play Families and COPPA standards.</p>
+    </section>
+
+    <section>
+      <h2>6. Security of Your Data</h2>
+      <p>Because your documents never leave your device, the security of your files relies on the built-in sandbox security of the Android operating system. We recommend maintaining a secure device passcode or biometric lock.</p>
+    </section>
+
+    <section>
+      <h2>7. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect regulatory or app updates. Any revisions will be published on this URL with an updated revision date.</p>
+    </section>
+
+    <section>
+      <h2>8. Contact Us</h2>
+      <p>If you have any questions or feedback regarding this Privacy Policy or OmniDoc, please reach out to us at:</p>
+      <p><strong>Email:</strong> <a href="mailto:support@vashudevgames.com">support@vashudevgames.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    OmniDoc &bull; 100% Offline PDF Utilities &bull; &copy; 2026 Vashudev. All rights reserved.
+  </footer>
+
+</body>
+</html>
